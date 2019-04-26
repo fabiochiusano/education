@@ -24,6 +24,11 @@
     "content_selector": [".single-content"],
     "title_selector": [".single-title"]
   },
+  "machinelearningmastery": {
+    "first_url": ["https://www.kdnuggets.com"],
+    "content_selector": [],
+    "title_selector": []
+  },
   "wikihow": {
     "first_url": ["https://www.wikihow.com"],
     "content_selector": ["#bodycontents .steps .step"],
@@ -41,22 +46,22 @@
   },
   "chemistry-blog": {
     "first_url": ["http://www.chemistry-blog.com"],
-    "content_selector": ["#main .post > .entry"],
-    "title_selector": ["#main .title"]
+    "content_selector": [".post > .entry"],
+    "title_selector": [".title"]
   },
   "techcrunch": {
     "first_url": ["https://techcrunch.com"],
-    "title_selector": [".article-container .article__header h1.article__title"],
-    "content_selector": [".article-container .article-content p"]
+    "content_selector": [".article__title"],
+    "title_selector": [".article-content p"]
   },
   "mashable": {
     "first_url": ["https://mashable.com"],
-    "title_selector": [".article-header > .title"],
-    "content_selector": [".article-content p"]
+    "content_selector": [".article-header > .title"],
+    "title_selector": [".article-content p"]
   },
   "refinery29": {
     "first_url": ["https://www.refinery29.com"],
-    "title_selector": [".r29-article .title"],
-    "content_selector": ["#article-main-content .section-text"]
+    "content_selector": [".r29-article .title"],
+    "title_selector": ["#article-main-content .section-text"]
   }
 }
