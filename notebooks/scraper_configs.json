@@ -1,0 +1,67 @@
+{
+  "medium": {
+    "first_url": ["https://medium.com"],
+    "content_selector": [".section-content", ".elevate"],
+    "title_selector": ["h1.graf--title", "h1.elevate-h1"]
+  },
+  "tutorialspoint": {
+    "first_url": ["https://www.tutorialspoint.com", "https://www.tutorialspoint.com/index.htm"],
+    "content_selector": [".content > div > p", ".tutorial-content > div > p", ".content > div > div > p"],
+    "title_selector": [".content > div > h1:first-of-type", ".tutorial-content > div > h1:first-of-type", ".content > div > div > h1:first-of-type"]
+  },
+  "kdnuggets": {
+    "first_url": ["https://www.kdnuggets.com"],
+    "content_selector": ["#post-"],
+    "title_selector": ["#title"]
+  },
+  "datasciencecentral": {
+    "first_url": ["https://www.datasciencecentral.com"],
+    "content_selector": ["article .entry-content"],
+    "title_selector": ["article .entry-title"]
+  },
+  "smartdatacollective": {
+    "first_url": ["https://www.smartdatacollective.com"],
+    "content_selector": [".single-content"],
+    "title_selector": [".single-title"]
+  },
+  "machinelearningmastery": {
+    "first_url": ["https://www.kdnuggets.com"],
+    "content_selector": [],
+    "title_selector": []
+  },
+  "wikihow": {
+    "first_url": ["https://www.wikihow.com"],
+    "content_selector": ["#bodycontents .steps .step"],
+    "title_selector": ["#bodycontents > #intro > h1:first-of-type"]
+  },
+  "splinters": {
+    "first_url": ["https://schwitzsplinters.blogspot.com"],
+    "content_selector": [".post-body"],
+    "title_selector": [".post-title"]
+  },
+  "thehistoryblog": {
+    "first_url": ["http://www.thehistoryblog.com"],
+    "content_selector": [".post > .entry"],
+    "title_selector": [".post > h3:first-of-type", ".post > h2:first-of-type"]
+  },
+  "chemistry-blog": {
+    "first_url": ["http://www.chemistry-blog.com"],
+    "content_selector": [".post > .entry"],
+    "title_selector": [".title"]
+  },
+  "techcrunch": {
+    "first_url": ["https://techcrunch.com"],
+    "content_selector": [".article__title"],
+    "title_selector": [".article-content p"]
+  },
+  "mashable": {
+    "first_url": ["https://mashable.com"],
+    "content_selector": [".article-header > .title"],
+    "title_selector": [".article-content p"]
+  },
+  "refinery29": {
+    "first_url": ["https://www.refinery29.com"],
+    "content_selector": [".r29-article .title"],
+    "title_selector": ["#article-main-content .section-text"]
+  }
+}
