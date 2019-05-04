@@ -1,0 +1,158 @@
+{
+  "medium": {
+    "first_url": ["https://medium.com"],
+    "content_selector": [".section-content", ".elevate"],
+    "title_selector": ["h1.graf--title", "h1.elevate-h1"],
+    "need_javascript": false
+  },
+  "tutorialspoint": {
+    "first_url": ["https://www.tutorialspoint.com", "https://www.tutorialspoint.com/index.htm"],
+    "content_selector": [".content > div p", ".tutorial-content > div p", ".content > div > div p"],
+    "title_selector": [".content > div > h1:first-of-type", ".tutorial-content > div > h1:first-of-type", ".content > div > div > h1:first-of-type"],
+    "need_javascript": false
+  },
+  "kdnuggets": {
+    "first_url": ["https://www.kdnuggets.com"],
+    "content_selector": ["#post-"],
+    "title_selector": ["#title"],
+    "need_javascript": false
+  },
+  "datasciencecentral": {
+    "first_url": ["https://www.datasciencecentral.com"],
+    "content_selector": ["article .entry-content"],
+    "title_selector": ["article .entry-title"],
+    "need_javascript": false
+  },
+  "smartdatacollective": {
+    "first_url": ["https://www.smartdatacollective.com"],
+    "content_selector": [".single-content"],
+    "title_selector": [".single-title"],
+    "need_javascript": false
+  },
+  "wikihow": {
+    "first_url": ["https://www.wikihow.com"],
+    "content_selector": ["#bodycontents .steps .step"],
+    "title_selector": ["#bodycontents > #intro > h1:first-of-type"],
+    "need_javascript": false
+  },
+  "splinters": {
+    "first_url": ["https://schwitzsplinters.blogspot.com"],
+    "content_selector": [".post-body"],
+    "title_selector": [".post-title"],
+    "need_javascript": false
+  },
+  "thehistoryblog": {
+    "first_url": ["http://www.thehistoryblog.com"],
+    "content_selector": [".post > .entry"],
+    "title_selector": [".post > h3:first-of-type", ".post > h2:first-of-type"],
+    "need_javascript": false
+  },
+  "chemistry-blog": {
+    "first_url": ["http://www.chemistry-blog.com"],
+    "content_selector": ["#main .post > .entry"],
+    "title_selector": ["#main .title"],
+    "need_javascript": false
+  },
+  "techcrunch": {
+    "first_url": ["https://techcrunch.com"],
+    "title_selector": [".article-container .article__header h1.article__title"],
+    "content_selector": [".article-container .article-content p"],
+    "need_javascript": false
+  },
+  "mashable": {
+    "first_url": ["https://mashable.com"],
+    "title_selector": [".article-header > .title", "#id_title"],
+    "content_selector": [".article-content p", "#id_text"],
+    "need_javascript": false
+  },
+  "refinery29": {
+    "first_url": ["https://www.refinery29.com"],
+    "title_selector": [".r29-article .title"],
+    "content_selector": ["#article-main-content .section-text"],
+    "need_javascript": false
+  },
+  "startupguide": {
+    "first_url": ["https://startupguide.com"],
+    "title_selector": [".article_header"],
+    "content_selector": [".article_content"],
+    "need_javascript": true
+  },
+  "machinelearningmastery": {
+    "first_url": ["https://www.kdnuggets.com"],
+    "content_selector": [],
+    "title_selector": [],
+    "need_javascript": true
+  },
+  "sba": {
+      "first_url": ["https://www.sba.gov"],
+      "title_selector": ["#titleSectionTitleId"],
+      "content_selector": ["#basicpage-titlesection div"],
+      "need_javascript": true
+  },
+  "fitsmallbusiness": {
+      "first_url": ["https://fitsmallbusiness.com"],
+      "title_selector": [".entry-title"],
+      "content_selector": [".clearfix"],
+      "need_javascript": true
+  },
+  "businessinsider": {
+      "first_url": ["https://www.businessinsider.com"],
+      "title_selector": [".post-headline"],
+      "content_selector": ["p"],
+      "need_javascript": false
+  },
+  "gizmodo": {
+      "first_url": ["https://gizmodo.com"],
+      "title_selector": [".entry-title", ".js_entry-title"],
+      "content_selector": [".post-content p"],
+      "need_javascript": false
+  },
+  "lifehacker": {
+      "first_url": ["https://lifehacker.com"],
+      "title_selector": [".entry-title", ".js_entry-title"],
+      "content_selector": [".post-content p"],
+      "need_javascript": false
+  },
+  "theverge": {
+      "first_url": ["https://www.theverge.com"],
+      "title_selector": [".c-page-title"],
+      "content_selector": [".c-entry-content"],
+      "need_javascript": false
+  },
+  "thoughtcatalog": {
+      "first_url": ["https://thoughtcatalog.com"],
+      "title_selector": [".entry-title", ".js_entry-title"],
+      "content_selector": [".entry-content", ".js_entry-content"],
+      "need_javascript": false
+  },
+  "zenhabits": {
+      "first_url": ["https://zenhabits.net"],
+      "title_selector": [".container h2"],
+      "content_selector": ["h3 , li , .post p"],
+      "need_javascript": false
+  },
+  "brainpickings": {
+      "first_url": ["https://www.brainpickings.org"],
+      "title_selector": [".entry-title", ".js_entry-title"],
+      "content_selector": [".entry_content", ".js_entry_content"],
+      "need_javascript": false
+  },
+  "wired": {
+      "first_url": ["https://www.wired.com"],
+      "title_selector": [".content-header-component #articleTitleFull"],
+      "content_selector": [".article-body-component"],
+      "need_javascript": false
+  },
+  "venturebeat": {
+      "first_url": ["https://venturebeat.com"],
+      "title_selector": [".article-title"],
+      "content_selector": [".article-content"],
+      "need_javascript": false
+  },
+  "vox": {
+      "first_url": ["https://www.vox.com"],
+      "title_selector": [".c-page-title"],
+      "content_selector": [".c-entry-content"],
+      "need_javascript": false
+  }
+}
